@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+html {
+  scrollbar-color: #fefefe #c73330;
+}
+
+/*WRAPPER*/
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F6F5EE;
+}
+/* Header */
+header {
+  width: 100vw;
+  height: 6vh;
+  background-color: #aa2522;
+  /* border-bottom: 1px solid #FBF5E8; */
+}
+/* logo */
+.logo{
+  background-image: url(../images/logo-at.png);
+  background-size: contain;
+  /* background-color: #F6F5EE; */
+  /* border: 1px solid black; */
+  float: left;
+  margin-top: 0.3vh;
+  margin-left: 5vw;
+  width: 3vw;
+  height: 5.5vh;
+}
+.team-name {
+  /* border: 1px solid blue;   */
+  /* width: 16vw; */
+  /* height: 5vh; */
+  background-color: #aa2522;
+  color: #fefefe;
+  text-decoration: none;
+  font-family: re;
+  font-size: 2em;
+  float: left;
+  padding-left: 0.5vw;
+  padding-top: 0.3vh;
+  margin-right: 2vw;
+  /* margin-top: 0.5vh; */
+  /* margin-left: 1vw; */
+}
+
+/* nav-list */
+nav {
+    /* border: 1px solid blue;    */
+  width: 40vw;
+  /* height: 5vh; */
+  background-color: #aa2522;
+  padding-top: 0.7vh;
+}
+ul li {
+    /* border: 1px solid blue;     */
+  float: left;
+  margin: 0vh 0.8vw;
+}
+ul li a {
+  font-size: 1.1em;
+  color: #fefefe;
+  text-decoration: none;
+  font-family: ua;
+}
+ul li a:hover {
+  color: #1d1b53;
+}
+
+/* cta */
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/metropolitano.jpg);
+    background-size: cover;
+}
+
+/* form */
+form {
+
+    border-radius: 10px;
+    border: 1.5px solid red; 
+    color: #fefefe;
+    width: 16vw;
+    height: 29vh;
+    display: flex;
+    justify-content: center; 
+    background-color: rgba(29, 27, 83, 0.7); 
+}
+h2{
+  margin: 2vh 0; 
+  font-family: ua;
+
+}
+label{
+  
+  font-family: ua;
+  justify-content: center;
+}
+input{
+  margin: 1vh 0;
+  height: 2.2vh;
+}
+#login-btn{
+  cursor: pointer;
+  margin-top: 2vh;
+  width: 5vw;
+  height: 3vh;
+  font-family: ua;
+  color: #141238;
+  border-radius: 10px;
+  border: 2px solid #1d1b53;
+  background: linear-gradient(to right, red, white);
+}
+#login-btn:hover{
+  background: linear-gradient(to right, #1d1b53, white);
+  color: #F6F5EE;
+}
+p{
+  background-color: #aa2522;
+  color: #fefefe;
+  font-family: po;
+}
+
+
+
+/* After section */
+
+.wrapper2{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/uefa.jpg);
+  background-size: cover;
+}
+a{ 
+  display: flex;
+  justify-content:left;
+  margin-top: 1vh;
+  text-decoration: none;
+}
+#return-btn{
+  color: #fefefe;
+  font-family: po;
+}
+#return-btn:hover{
+  color: #aa2522;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5vh;
+  font-family: ua;
+  color: #FFFFFF;
+}
+
